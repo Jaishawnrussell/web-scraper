@@ -24,8 +24,7 @@ app.get('/scrape', function(req, res){
             player4: ".player-10-33712",
             player5: ".player-10-33173",
           };
-
-        // First we'll check to make sure no errors occurred when making the request
+         // First we'll check to make sure no errors occurred when making the request
 
         if(!error){
             // Next, we'll utilize the cheerio library on the returned html which will essentially give us jQuery functionality
